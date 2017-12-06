@@ -1,0 +1,909 @@
+@font-face {
+	font-family: Frutiger;
+	src: url(../fonts/Frutiger_Black_Cn.ttf);
+}
+
+body {
+	font-family: 'Squada One', sans-serif;
+	font-size: 22px;
+	color: #4a4a49;
+}
+
+a {
+	color: #4a4a49;
+	transition: .2s ease-in-out;
+}
+
+a:hover {
+	color: #0e98e0;
+	background-color: transparent !important;
+	text-decoration: none !important;
+}
+
+.corTitulo {
+	color: #0e98e0;
+}
+
+span.hr_azul,
+span.hr_branco {
+    width: 2.4em;
+    display: block;
+}
+
+span.hr_azul hr {
+    border: 2px solid #0e98e0;
+}
+
+span.hr_branco hr {
+	border: 2px solid #fff;
+}
+
+.hrDivisor img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bannerInterno {
+    padding: 0;
+}
+
+.bannerInterno img {
+    width: 100%;
+    height: auto;
+}
+
+.textoBanner {
+    height: auto;
+    padding: 1.8em;
+    background-color: #4a4a49;
+}
+
+.bottom {
+    margin-bottom: 2em;
+}
+
+.boldSaira {
+	font-weight: 700;
+}
+
+/* Você esqueceu o atributo "alt" */
+img[alt=""],
+img:not([alt]) {
+	border: 5px dashed #C00;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*										HOME											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+
+/* ======================================== TOPO E MENU ======================================== */
+
+.topo {
+    margin: 1.2em 0;
+    height: 3.7em;
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+}
+
+.menu .navbar {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin: .7em 0 0 -2.3em;
+}
+
+li.login {
+    margin-top: -.2em;
+}
+
+.glyphicon-log-in {
+    margin-right: .2em;
+}
+
+.navbar-toggle {
+    background-color: white;
+    border: 1px solid #0e98e0;
+}
+
+.icon-bar {
+    background-color: #0e98e0;
+}
+
+
+
+/* ======================================== BANNER ======================================== */
+
+.bannerHome {
+	min-height: 30em;
+}
+
+.background1,
+.background2,
+.background3 {
+    width: 22em;
+    height: 30em;
+    position: absolute;
+}
+
+.background1 {
+	background-color: rgba(54, 52, 53, .5);
+}
+
+.background2 {
+	background-color: rgba(0, 158, 217, .5);
+}
+
+.background3 {
+	background-color: rgba(235, 94, 0, .5);
+}
+
+.tp-tabs.tp-span-wrapper.inner.zeus.nav-pos-hor-left.nav-pos-ver-bottom.nav-dir-horizontal {
+    top: 106.2% !important;
+}
+
+.tp-tab {
+    width: 33.3% !important;
+}
+
+.tp-tab span:nth-child(2) {
+	background-color: rgba(235, 94, 0, 1) !important;
+}
+
+.tp-tabs-inner-wrapper {
+	width: 100% !important;
+}
+
+.tp-tab-mask {
+    max-width: 100% !important;
+    transform: matrix(1, 0, 0, 1, 0, 0) !important;
+}
+
+.tp-caption.News-Subtitle, .News-Subtitle {
+	cursor: default !important;
+}
+
+.tp-caption.News-Subtitle:hover, .News-Subtitle:hover {
+	color: #FFF !important;
+}
+
+.zeus .tp-tab-title {
+    font-weight: 300 !important;
+}
+
+
+
+
+
+/* ==================================== QUEM SOMOS HOME ==================================== */
+
+.video{
+  position: relative;
+  padding-bottom: 52.7%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 2.5em;
+  margin: 3.5em 0;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoHome {
+	min-height: 30em;
+}
+
+.homeQuemSomos {
+    margin-top: 4.4em;
+}
+
+.homeQuemSomos h2 {
+	font-size: 3em;
+}
+
+
+
+/* ======================================== THUMB ======================================== */
+
+.thumbs {
+    height: 20em;
+    text-align: center;
+}
+
+.thumbs p {
+    font-size: 1.4em;
+}
+
+.round {
+    width: 6.7em;
+    height: 6.7em;
+    border-radius: 50%;
+    background-color: #5a5a5a;
+    display: inline-block;
+    margin-top: 4.6em;
+}
+
+.round img {
+    width: 4.5em;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+.round .port {
+	margin-left: .5em;
+}
+
+.homeServicoTitulo,
+.homePortfolioTitulo,
+.homeDepoimentosTitulo,
+.homeContatoTitulo {
+	color: #363435;
+}
+
+.homeServicoTitulo:hover {
+	color: #f98704;
+}
+
+.homePortfolioTitulo:hover {
+	color: #0e98e0;
+}
+
+.homeDepoimentosTitulo:hover {
+	color: #991d92;
+}
+
+.homeContatoTitulo:hover {
+	color: #08bfb0;
+}
+
+
+/* ======================================== RODAPÉ ======================================== */
+
+.rodape {
+	height: 11em;
+	background-color: #282828;
+	text-align: center;
+}
+
+.mediaSocial {
+    margin: 3.2em 0 1.3em;
+}
+
+.mediaSocial a{
+	opacity: .6;
+	transition: .2s ease-in-out;
+}
+
+.mediaSocial a:hover {
+	opacity: 1;
+}
+
+.mediaSocial img {
+    width: 2.8em;
+    height: auto;
+    margin-right: 1.2em;
+}
+
+.copyright {
+	color: #FFF;
+	font-size: .8em;
+	font-family: Frutiger;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*									QUEM SOMOS											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+
+/* ======================================== BANNER ======================================== */
+
+.textoBanner p:first-child {
+	font-size: 2.6em;
+}
+
+.textoBanner p {
+	font-size: .8em;
+	color: #FFF;
+}
+
+
+/* ======================================== MVV ======================================== */
+
+.missao,
+.visao,
+.valores {
+    padding: 2.2em 1.8em 2.2em 1.8em;
+}
+
+.visao {
+    border-right: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+}
+
+.missao p:first-child,
+.visao p:first-child,
+.valores p:first-child {
+    font-size: 2em;
+    margin-bottom: -.3em;
+    font-family: 'Squada One', sans-serif;
+}
+
+.missao p,
+.visao p,
+.valores p {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: .68em;
+}
+
+.valores ul {
+	margin-left: -1.2em;
+}
+
+.valores ul li {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: .68em;
+}
+
+
+/* ============================== ESCRITORIO/ARMAZENAMENTO ============================== */
+
+.escritorio,
+.armazenamento {
+	padding: 0;
+	position: relative;
+}
+
+.escritorio img,
+.armazenamento img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.escritorioTxt,
+.armazenamentoTxt {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: .6em 2.7em;
+	color: #FFF;
+}
+
+.escritorioTxt {
+	background-color: rgba(34, 208, 225, .7);
+}
+
+.armazenamentoTxt {
+	background-color: rgba(249, 135, 6, .7);
+}
+
+.escritorioTxt p:first-child,
+.armazenamentoTxt p:first-child {
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*									SERVIÇOS											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+
+.hasSelectedItem .gridder-list.selectedItem .servicosHover {
+	opacity: 1;
+}
+
+.hasSelectedItem .gridder-list.selectedItem .glyphicon-triangle-bottom {
+	display: block;
+}
+
+.servicosHover {
+    margin-top: -7em;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.servicosHover img {
+    width: 100%;
+    height: auto;
+}
+
+.gridder-list:hover .servicosHover {
+	opacity: 1;
+}
+
+.gridder-list:nth-child(n) {
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+}
+
+.gridder-list {
+    width: 25% !important;
+}
+
+.gridder-show {
+    margin-bottom: 0 !important;
+    min-height: 28em;
+    background-color: #FFF !important;
+}
+
+.gridder-navigation {
+    text-align: right;
+}
+
+.col-sm-1.gridder-nav.prev,
+.col-sm-1.gridder-nav.next {
+    font-size: 5em;
+    margin-top: 1.5em;
+}
+
+.col-sm-1.gridder-nav.next {
+	float: right;
+}
+
+.gridder-close {
+	font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 2em;
+}
+
+.textoDestaque p {
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.glyphicon-triangle-bottom {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    margin-top: -9px;
+    display: none;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*									PORTFOLIO											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+.portfolioTestimony {
+	background-color: #ff8400;
+}
+
+.depoimentos {
+	color: #FFF;
+	margin-bottom: 5em;
+}
+
+.topoDepoimentos {
+	margin: 2em 0;
+}
+
+.topoDepoimentos h2 {
+	font-size: 1.8em;
+}
+
+.testimony {
+	text-align: center;
+}
+
+.testimony img {
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+}
+
+.testimony h3 {
+	font-size: 1.8em;
+}
+
+.testimony p:nth-child(3) {
+	font-size: 1.4em;
+	font-family: 'Squada One', sans-serif;
+	width: 100%;
+	margin-left: 0;
+}
+
+.testimony p {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: .8em;
+    width: 20em;
+    margin-left: 5.5em;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*									PARCEIROS											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+.parceiros {
+	margin: 2.5em 0;
+}
+
+.caption {
+    background-color: #6f6d6e;
+    padding: 10px 30px !important;
+    color: #FFF !important;
+}
+
+.caption h3 {
+	font-size: 2em;
+	margin-bottom: -5px;
+}
+
+.caption p {
+	font-size: .8em;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*										CONTATO											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+.contato {
+    margin-bottom: 2em;
+    border-right: 1px solid #ececec;
+}
+
+.contato h2 {
+	font-size: 1.8em;
+}
+
+.telefone,
+.whatsapp,
+.email {
+	margin-bottom: 1em;
+}
+
+.telefone p img,
+.whatsapp p img,
+.email p img {
+    width: 2.7em;
+    height: auto;
+    float: left;
+    margin-right: .6em;
+}
+
+.telefone p:first-child,
+.whatsapp p:first-child,
+.email p:first-child {
+    margin-bottom: 0.1em;
+}
+
+.telefone p,
+.whatsapp p,
+.email p {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: .8em;
+    margin-bottom: .1em;
+}
+
+.redeSocial {
+	padding-left: 2.7em;
+}
+
+.redeSocial p {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: .8em;
+}
+
+.redeSocial img {
+	width: 2em;
+	height: auto;
+	margin-right: .4em;
+}
+
+.formulario {
+	padding-left: 2em;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	margin-bottom: 2em;
+}
+
+.formulario h2 {
+	font-family: 'Squada One', sans-serif;
+	font-size: 1.8em;
+}
+
+.formulario button {
+	float: right;
+}
+
+.mapaContato {
+	position: relative;
+}
+
+.mapa {
+    margin-bottom: -8px;
+}
+
+.endereco {
+    background-color: rgba(7, 201, 236, 1);
+    padding: 1em;
+    color: #FFF;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    bottom: 0;
+}
+
+.endereco img {
+	width: 2.2em;
+    height: auto;
+    float: left;
+    margin-right: .6em;
+}
+
+.endereco p {
+	font-size: 2em;
+	margin-top: -.2em;
+	margin-bottom: -.3em;
+}
+
+.endereco p:last-child {
+	font-size: .9em;
+}
+
+
+
+
+/*
+*****************************************************************************************
+*																						*
+*																						*
+*										LOGIN											* 
+*																						*
+*																						*
+*****************************************************************************************
+*/
+
+.bannerLogin {
+	background-image: url(../images/banner_login.jpg);
+    background-size: cover;
+    min-height: 20em;
+    width: 100%;
+    height: auto;
+}
+
+.formLogin_topo {
+    width: 50%;
+    margin: 0 auto 5em;
+}
+
+.formLogin_topo img {
+    width: 14em;
+    height: auto;
+    margin-top: 3em;
+}
+
+.formLogin_topo h2 {
+    color: #FFF;
+    margin-top: -2.5em;
+    margin-left: 1.2em;
+    font-size: 1.8em;
+}
+
+.formLogin_topo p {
+    font-size: .8em;
+    margin-top: -2em;
+    text-align: right;
+    margin-right: 3em;
+}
+
+.formLogin {
+    width: 50%;
+    height: auto;
+    background-color: rgba(40,40,40,.7);
+    padding: 2em;
+    border: 1px solid #e9e5e3;
+    border-radius: 50px;
+    margin: -4.4em auto 0;
+    color: #fff;
+    text-align: right;
+}
+
+.formLogin form {
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.formLogin .form-control {
+    background-color: #636363;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.formLogin button {
+    font-weight: 700;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 0 .7em;
+    margin-top: -4em;
+    background-color: #009ee0;
+    transition: .2s ease-in-out;
+    border-color: #0085bc;
+}
+
+.formLogin p {
+    text-align: left;
+    margin-top: -2em;
+    margin-bottom: -1.8em;
+    font-size: .7em;
+    margin-left: 1.4em;
+}
+
+.formLogin p a {
+	color: #fff;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	text-decoration: underline;
+}
+
+.formLogin p a:hover {
+	text-decoration: underline !important;
+	color: #0e98e0;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*****************************************************************************************
+*                                                                                       *
+*                                                                                       *
+*                                  MEDIA QUERY                                          * 
+*                                                                                       *
+*                                                                                       *
+*****************************************************************************************
+*/
+
+
+/* Desktop maiores */
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+/* tables em formato porta retrato até os desktos no formato paisagem */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* dispositivo em paisagem até os tablets em formato porta-retrato */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .topo {
+        margin: 1.2em 0 3em;
+    }
+
+    .menu {
+        margin: .7em 0 1em;
+    }
+
+    .navbar {
+        z-index: 2;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+        text-align: center;
+        border: #0e98e0 1px solid;
+        font-size: .9em;
+        border-radius: .5em;
+    }
+
+    .homeQuemSomos {
+        margin-top: 0;
+    }
+
+    .thumbs {
+        height: 15em;
+    }
+
+    .visao {
+        border-top: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+        border-left: 0;
+        border-right: 0;
+    }
+}
+
+/* dispositivo no formato paisagem e abaixos */
+@media (max-width: 530px) {
+
+}
+
+@media (max-width: 470px){
+    
+}
